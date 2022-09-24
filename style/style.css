@@ -1,0 +1,255 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+/* Header */
+.header {
+    max-width: 1600px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 13.8%;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0px;
+}
+
+.header_nav ul {
+    display: flex;
+
+
+}
+
+.header_logo {
+    display: inline;
+    height: 52px;
+    width: 82px;
+}
+
+.header_nav_elem {
+    list-style-type: none;
+    margin-left: 3.6%;
+
+}
+
+
+
+.header_nav_elem a {
+    text-decoration: none;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header_nav_elem:hover {
+    transition-duration: 500ms;
+    color: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.header_designed {
+
+    margin-right: 13.75%;
+}
+
+/* Body  section 1*/
+.big_panda_section {
+    height: 780px;
+    background: url(/img/Giant\ Panda.svg)no-repeat;
+    position: relative;
+}
+
+.big_orange_circle {
+    width: 33%;
+    height: 64%;
+    border-radius: 50%;
+
+    position: absolute;
+    left: calc(50% - 465px/2 + 239.5px);
+    top: 92px;
+
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.main_text {
+    position: absolute;
+
+    height: 500px;
+    width: 400px;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    top: 13%;
+    right: 16%;
+    color: #FFFFFF;
+}
+
+.main_text span {
+    color: #FFEE2E;
+}
+
+.big_panda_section__btn {
+    width: 20%;
+    height: 7%;
+
+    position: relative;
+    top: 85%;
+    left: 62%;
+
+    border: none;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.big_panda_section__btn:hover {
+    transition-duration: 500ms;
+    background-color: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+/* Body  section 2*/
+.section_text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.section_text__img1 {
+    margin-left: 13.7%;
+    height: 405px;
+    width: 38%;
+    background: url(/img/bamboo_cap.svg)no-repeat;
+
+}
+
+.section_text__text {
+    width: 30.5%;
+    margin-left: 5.4%;
+    margin-right: 1.25%;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 400;
+    color: #333B41;
+}
+
+.section_text__text__header_1 {
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.section_text__text__body_1 {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 54px;
+}
+
+.section_text__text__header_2 {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.section_text__text__body_2 {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.section_text__img2 {
+    height: 605px;
+    width: 13%;
+    margin-right: 0px;
+    background: url(/img/flower_foto_1.svg)no-repeat;
+}
+
+/* Body Section 3 */
+
+.section__slider {
+    margin-top: 180px;
+
+}
+
+.section__slider__cards {
+    margin: 0px auto;
+    width: 74%;
+    height: 415px;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 30px;
+}
+
+.section__slider__card {
+
+    border: solid 1px #FE9013;
+    /* background-image: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%); */
+    border-image-slice: 1;
+    border-radius: 6px;
+}
+
+.section__slider__card__img {
+    height: 366px;
+}
+
+.img_1 {
+    border-radius: 5px;
+    background: url(/img/card_1.svg);
+}
+
+.img_2 {
+    border-radius: 5px;
+    background: url(/img/card_2.svg)no-repeat;
+}
+
+.img_3 {
+    border-radius: 5px;
+    background: url(/img/card_3.svg)no-repeat;
+}
+
+.img_4 {
+    border-radius: 5px;
+    background: url(/img/card_4.svg)no-repeat;
+}
+
+.img_5 {
+    border-radius: 5px;
+    background: url(/img/card_5.svg)no-repeat;
+}
+
+.img_6 {
+    border-radius: 5px;
+    background: url(/img/card_6.svg)no-repeat;
+}
