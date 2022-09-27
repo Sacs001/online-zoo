@@ -85,7 +85,7 @@ h1 {
 .panda_bg {
     width: 100rem;
     height: 24rem;
-    background: url(./img/panda_bg_donate.svg)no-repeat;
+    background: url(../img/panda_bg_donate.svg)no-repeat;
 }
 
 .donate_bg {
@@ -178,13 +178,13 @@ h1 {
 .donate_bg__desktop_donate__panda_diet__cross {
     width: 0.875rem;
     height: 0.875rem;
-    background: url(./img/cross.svg)no-repeat;
+    background: url(../img/cross.svg)no-repeat;
 }
 
 .donate_bg__desktop_donate__panda_diet__widget_panda {
     height: 15.375rem;
     width: 17.75rem;
-    background: url(./img/panda_widget1.svg)no-repeat;
+    background: url(../img/panda_widget1.svg)no-repeat;
 }
 
 .donate_bg__desktop_donate__amount {
@@ -487,7 +487,7 @@ body {
 .footer__bg__logo_and_submit__logo {
     height: 52px;
     width: 82px;
-    background: url(./img/logo_footer2.svg);
+    background: url(../img/logo_footer2.svg);
 }
 
 .footer__bg__logo_and_submit__submit__header {
