@@ -76,7 +76,7 @@ p {
 /* Body  section 1*/
 .big_panda_section {
     height: 780px;
-    background: url(./img/Giant\ Panda.svg)no-repeat;
+    background: url(/img/Giant_Panda.jpg)no-repeat;
     position: relative;
 }
 
