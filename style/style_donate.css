@@ -81,6 +81,16 @@ h1 {
     margin-right: 13.75%;
 }
 
+.header_designed a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header_designed a:hover {
+    transition: 2s;
+    color: #FE9013;
+}
+
 /* Main */
 .panda_bg {
     width: 88.7rem;
@@ -487,7 +497,7 @@ body {
 .footer__bg__logo_and_submit__logo {
     height: 52px;
     width: 82px;
-    background: url(../img/logo_footer2.svg);
+    display: inline;
 }
 
 .footer__bg__logo_and_submit__submit__header {
