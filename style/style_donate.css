@@ -1,9 +1,6 @@
-body,
-p,
-h1 {
+* {
     margin: 0px;
     padding: 0px;
-
     font-family: 'Roboto';
     font-style: normal;
 }
@@ -17,7 +14,7 @@ h1 {
 
 /* Header */
 .header {
-    max-width: 1600px;
+    width: 100rem;
     height: 80px;
     background-color: black;
     display: flex;
@@ -93,13 +90,13 @@ h1 {
 
 /* Main */
 .panda_bg {
-    width: 88.7rem;
+    width: 100rem;
     height: 24rem;
     background: url(../img/panda_bg_donate.svg)no-repeat;
 }
 
 .donate_bg {
-    width: 88.7rem;
+    width: 100rem;
     height: 92.5rem;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     ;
@@ -286,10 +283,6 @@ h1 {
     background-color: rgba(255, 238, 46, 1);
 }
 
-body {
-    padding: 20px 50px;
-}
-
 .d:hover {
     background-color: #adb5bd;
     color: #FFFFFF;
@@ -432,9 +425,6 @@ body {
     background-color: #e9ecef;
 }
 
-body {
-    padding: 20px 50px;
-}
 
 .radio {
     margin-bottom: 0.2em;

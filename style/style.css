@@ -14,7 +14,7 @@ p {
 
 /* Header */
 .header {
-    max-width: 1600px;
+    width: 100rem;
     height: 80px;
     background-color: black;
     display: flex;
@@ -74,6 +74,7 @@ p {
 }
 
 .header_designed {
+
     margin-right: 13.75%;
 }
 
@@ -86,7 +87,6 @@ p {
     transition: 2s;
     color: #FE9013;
 }
-
 
 
 /* Body  section 1*/
@@ -733,14 +733,14 @@ p {
 .footer__bg__social_nav_design {
     display: flex;
     justify-content: space-between;
-    margin: 32px 10.75% 0px 10.75%;
+    margin: 44px 2.75% 0px -1.25%;
 
 }
 
 .footer__bg__logo_and_submit {
     display: flex;
     justify-content: space-between;
-    padding: 40px 13.75% 0px 13.75%;
+    padding: 39px 5.75% 0px 1.9rem;
 }
 
 .footer__bg__logo_and_submit__logo {
@@ -795,8 +795,8 @@ p {
     padding-top: 5px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
-    margin-top: 68px;
-    margin-left: 13.75%;
+    margin-top: 29px;
+    margin-left: 3%;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
