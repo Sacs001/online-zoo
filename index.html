@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style_tablet/style_adaptive_1000-640px.css" type="text/css">
+    <link rel="stylesheet" href="./style/style_tablet/style_adaptive_640-320px.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -15,6 +17,23 @@
 <body>
     <header class="header">
         <div class="header_logo"><a href="../index.html"><img src="../img/1.svg" alt=""></a></div>
+        <div class="burger-menu_adaptive">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+
+            <ul class="menubox_adaptive">
+                <li><a id='' class="menu-item_adaptive" href="#">About</a></li>
+                <li><a id='' class="menu-item_adaptive" href="#">Map</a></li>
+                <li><a id='' class="menu-item_adaptive" href="#">Zoos</a></li>
+                <li><a id='' class="menu-item_adaptive" href="./pages/index_donate.html">Donate</a></li>
+                <li><a id='account' class="menu-item_adaptive " href="#">Contact Us</a></li>
+                <li><a id='' class="menu-item_adaptive"
+                        href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks?node-id=0%3A1">Designed
+                        by</a></li>
+            </ul>
+        </div>
         <nav class="header_nav">
             <ul>
                 <li class="header_nav_elem"><a href="#">About</a></li>
@@ -66,71 +85,74 @@
                     </div>
                 </div>
             </div>
-            <div class="section__slider__cards">
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img image_1"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">giant Pandas</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Native to
-                                Southwest China</div>
-                        </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_1"></div>
-                    </div>
-                </div>
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img image_2"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">Eagles</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Native to South
-                                America</div>
-                        </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_2"></div>
-                    </div>
-                </div>
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img image_3"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">Gorillas</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Native to Congo
+            <div class="hidden">
+                <div class="section__slider__cards">
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img image_1"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">giant Pandas</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Native to
+                                    Southwest China</div>
                             </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_1"></div>
                         </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_3"></div>
                     </div>
-                </div>
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img image_4"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">Two-toed Sloth</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Mesoamerica,
-                                South America</div>
-                        </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_4"></div>
-                    </div>
-                </div>
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img img_5"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">cheetahs</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Native to Africa
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img image_2"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">Eagles</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Native to South
+                                    America</div>
                             </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_2"></div>
                         </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_5"></div>
                     </div>
-                </div>
-                <div class="section__slider__card">
-                    <div class="section__slider__card__img img_6"></div>
-                    <div class="section__slider__card__info_and_icon">
-                        <div class="section__slider__card__info_and_icon__info">
-                            <div class="section__slider__card__info_and_icon__info__main_text">Penguins</div>
-                            <div class="section__slider__card__info_and_icon__info__secondary_text">Native to
-                                Antarctica</div>
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img image_3"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">Gorillas</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Native to Congo
+                                </div>
+                            </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_3"></div>
                         </div>
-                        <div class="section__slider__card__info_and_icon__icon icon_6"></div>
+                    </div>
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img image_4"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">Two-toed Sloth</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Mesoamerica,
+                                    South America</div>
+                            </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_4"></div>
+                        </div>
+                    </div>
+
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img img_5"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">cheetahs</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Native to Africa
+                                </div>
+                            </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_5"></div>
+                        </div>
+                    </div>
+                    <div class="section__slider__card">
+                        <div class="section__slider__card__img img_6"><span></span></div>
+                        <div class="section__slider__card__info_and_icon">
+                            <div class="section__slider__card__info_and_icon__info">
+                                <div class="section__slider__card__info_and_icon__info__main_text">Penguins</div>
+                                <div class="section__slider__card__info_and_icon__info__secondary_text">Native to
+                                    Antarctica</div>
+                            </div>
+                            <div class="section__slider__card__info_and_icon__icon icon_6"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,7 +186,8 @@
                                 </div>
                                 <div class="pick_and_feed__bg__main__how_it_work__panel__card__text">Pay with card</div>
                             </div>
-                            <div class="pick_and_feed__bg__main__how_it_work__panel__arr"></div>
+                            <div class="pick_and_feed__bg__main__how_it_work__panel__arr arr_two_for_adaptive_one ">
+                            </div>
                             <div class="pick_and_feed__bg__main__how_it_work__panel__card">
                                 <div class="pick_and_feed__bg__main__how_it_work__panel__img">
                                     <div class="card_2"></div>
@@ -172,7 +195,8 @@
                                 <div class="pick_and_feed__bg__main__how_it_work__panel__card__text">Payment goes to the
                                     zoo</div>
                             </div>
-                            <div class="pick_and_feed__bg__main__how_it_work__panel__arr"></div>
+                            <div class="pick_and_feed__bg__main__how_it_work__panel__arr arr_two_for_adaptive_two">
+                            </div>
                             <div class="pick_and_feed__bg__main__how_it_work__panel__card">
                                 <div class="pick_and_feed__bg__main__how_it_work__panel__img">
                                     <div class="card_3"></div>
@@ -190,107 +214,134 @@
         <section>
             <div class="testimonials">
                 <div class="testimonials__header">Testimonials</div>
-                <div class="testimonials__cards">
-                    <div class="testimonials__cards__card">
-                        <div class="testimonials__cards__card__header">
-                            <div class="card_img img_1"></div>
-                            <div class="testimonials__cards__card__header__text">
-                                <div class="card__name">Michael John </div>
-                                <div class="card_local">Local Austria •</div>
-                                <div class="card__time">Today</div>
-                            </div>
+                <div class="wrapper_testimonial">
+                    <div class="testimonials__cards">
 
+                        <div class="testimonials__cards__card">
+                            <div class="testimonials__cards__card__header">
+                                <div class="card_img img_1"></div>
+                                <div class="testimonials__cards__card__header__text">
+                                    <div class="card__name">Michael John </div>
+                                    <div class="card_local">Local Austria •</div>
+                                    <div class="card__time">Today</div>
+                                </div>
+
+                            </div>
+                            <div class="card_text">
+                                <p>The best online zoo I’ve met. My son delighted very much ljves to watch
+                                    gouillas. Online zoo is one jf the ways to instill a love for animals.The best
+                                    online
+                                    zoo
+                                    I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf
+                                    the
+                                    ways
+                                    to instill a love for animals.</p>
+                                <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+                                    Online
+                                    zoo
+                                    is one jf the ways to instill a love for animals.The best online zoo I’ve met. My
+                                    son
+                                    delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                                    instill a
+                                    love
+                                    for animals.</p>
+                            </div>
                         </div>
-                        <div class="card_text">
-                            <p>The best online zoo I’ve met. My son delighted very much ljves to watch
-                                gouillas. Online zoo is one jf the ways to instill a love for animals.The best online
-                                zoo
-                                I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
-                                ways
-                                to instill a love for animals.</p>
-                            <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                        <div class="testimonials__cards__card">
+                            <div class="testimonials__cards__card__header">
+                                <div class="card_img img_2"></div>
+                                <div class="testimonials__cards__card__header__text">
+                                    <div class="card__name">Michael John </div>
+                                    <div class="card_local">Local Austria •</div>
+                                    <div class="card__time">Yesterday</div>
+                                </div>
+                            </div>
+                            <div class="card_text">
+                                Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve
+                                met. My
+                                son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to
+                                instill a
+                                love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch
+                                gouillas.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
                                 zoo
                                 is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
                                 delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a
                                 love
-                                for animals.</p>
-                        </div>
-                    </div>
-                    <div class="testimonials__cards__card">
-                        <div class="testimonials__cards__card__header">
-                            <div class="card_img img_2"></div>
-                            <div class="testimonials__cards__card__header__text">
-                                <div class="card__name">Michael John </div>
-                                <div class="card_local">Local Austria •</div>
-                                <div class="card__time">Yesterday</div>
+                                for animals.
+
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                zoo
+                                is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
+                                delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a
+                                love
+                                for animals.
+
+
                             </div>
                         </div>
-                        <div class="card_text">
-                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My
-                            son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a
-                            love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch
-                            gouillas.
-                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                            is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
-                            delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love
-                            for animals.
+                        <div class="testimonials__cards__card">
+                            <div class="testimonials__cards__card__header">
+                                <div class="card_img img_3"></div>
+                                <div class="testimonials__cards__card__header__text">
+                                    <div class="card__name">Michael John </div>
+                                    <div class="card_local">Local Austria •</div>
+                                    <div class="card__time">Yesterday</div>
+                                </div>
 
-                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                            is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
-                            delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love
-                            for animals.
-
-
-                        </div>
-                    </div>
-                    <div class="testimonials__cards__card">
-                        <div class="testimonials__cards__card__header">
-                            <div class="card_img img_3"></div>
-                            <div class="testimonials__cards__card__header__text">
-                                <div class="card__name">Michael John </div>
-                                <div class="card_local">Local Austria •</div>
-                                <div class="card__time">Yesterday</div>
                             </div>
-
-                        </div>
-                        <div class="card_text">The best online zoo I’ve met. My son delighted very much ljves to watch
-                            gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo
-                            I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways
-                            to instill a love for animals.
-                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                            is one jf the ways to instill a love for animals.The best online zoo I’ve met.
-                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                            is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
-                            delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love
-                            for animals.
-                        </div>
-                    </div>
-                    <div class="testimonials__cards__card">
-                        <div class="testimonials__cards__card__header">
-                            <div class="card_img img_4"></div>
-                            <div class="testimonials__cards__card__header__text">
-                                <div class="card__name">Michael John </div>
-                                <div class="card_local">Local Austria •</div>
-                                <div class="card__time">Yesterday</div>
+                            <div class="card_text">The best online zoo I’ve met. My son delighted very much ljves to
+                                watch
+                                gouillas. Online zoo is one jf the ways to instill a love for animals.The best online
+                                zoo
+                                I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the
+                                ways
+                                to instill a love for animals.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                zoo
+                                is one jf the ways to instill a love for animals.The best online zoo I’ve met.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                zoo
+                                is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
+                                delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a
+                                love
+                                for animals.
                             </div>
-
                         </div>
-                        <div class="card_text">My son delighted very much ljves to watch gouillas. Online zoo is one jf
-                            the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very
-                            much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
-                            animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
-                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My
-                            son delighted very much ljves to watch gouillas.
-                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo
-                            is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
-                            delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love
-                            for animals.
+                        <div class="testimonials__cards__card">
+                            <div class="testimonials__cards__card__header">
+                                <div class="card_img img_4"></div>
+                                <div class="testimonials__cards__card__header__text">
+                                    <div class="card__name">Michael John </div>
+                                    <div class="card_local">Local Austria •</div>
+                                    <div class="card__time">Yesterday</div>
+                                </div>
+
+                            </div>
+                            <div class="card_text">My son delighted very much ljves to watch gouillas. Online zoo is one
+                                jf
+                                the ways to instill a love for animals.The best online zoo I’ve met. My son delighted
+                                very
+                                much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
+                                animals.The best online zoo I’ve met. My son delighted very much ljves to watch
+                                gouillas.
+                                Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve
+                                met. My
+                                son delighted very much ljves to watch gouillas.
+                                The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online
+                                zoo
+                                is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son
+                                delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a
+                                love
+                                for animals.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="testimonials__scroolbar"></div>
-                <div class="testimonials__button">leave feedback</div>
-                <div class="testimonials__flower_fore"></div>
+            </div>
+            <div class="testimonials__scroolbar"></div>
+            <div class="testimonials__button">leave feedback</div>
+            <div class="testimonials__flower_fore"></div>
             </div>
         </section>
         <footer>
@@ -311,10 +362,11 @@
                 <div class="footer__bg__social_nav_design">
                     <div class=" footer__bg__social_nav_design__social">
                         <ul>
-                            <li><a class="facebook" href=""><img src="./img/facebook.svg" alt=""></a></li>
-                            <li><a class="twitter" href=""><img src="./img/twitter.svg" alt=""></a></li>
-                            <li><a class="instagram" href=""><img src="./img/instagram.svg" alt=""></a></li>
-                            <li><a class="youtube" href=""><img src="./img/youtube.svg" alt=""></a></li>
+                            <li><a class="facebook" href=""><img src="./img_640-320px/facebook_640.svg" alt=""></a></li>
+                            <li><a class="twitter" href=""><img src="./img_640-320px/twitter_640.svg" alt=""></a></li>
+                            <li><a class="instagram" href=""><img src="./img_640-320px/instagram_640.svg" alt=""></a>
+                            </li>
+                            <li><a class="youtube" href=""><img src="./img_640-320px/youtube_640.svg" alt=""></a></li>
                         </ul>
                     </div>
                     <nav class="footer__bg__social_nav_design__nav">

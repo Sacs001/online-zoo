@@ -1,0 +1,596 @@
+@media screen and (min-width: 640px) and (max-width :1000px) {
+
+    /* Header */
+    .header {
+        width: 61rem;
+        height: 80px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2.8%;
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+
+    }
+
+    .header_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 44rem;
+        padding: 0px;
+    }
+
+    .header_nav ul {
+        display: flex;
+    }
+
+    .header_logo {
+        display: inline;
+        height: 52px;
+        width: 82px;
+    }
+
+    .header_nav_elem {
+        list-style-type: none;
+        margin-left: 44px;
+    }
+
+    .header_nav_elem a {
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .header_nav_elem a:hover {
+        transition: 2s;
+        color: #FE9013;
+    }
+
+    .header_designed {
+        margin-right: 3.75%;
+    }
+
+    .header_designed a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .header_designed a:hover {
+        transition: 2s;
+        color: #FE9013;
+    }
+
+
+
+    /* Main */
+    .panda_bg {
+        width: 62.7rem;
+        height: 24.4rem;
+        background: url(../../img_tablet/img_tablet_donate/panda_bg_1000.jpg)no-repeat;
+    }
+
+    .donate_bg {
+        width: 62.5rem;
+        height: 84rem;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+        ;
+    }
+
+    .donate_bg__main_text {
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 130%;
+        padding-top: 2.5rem;
+        color: #FFFFFF;
+        margin-right: 11rem;
+        text-align: start;
+        margin-left: 2rem;
+    }
+
+    .donate_bg__text_second {
+        width: 58.5rem;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 140%;
+        text-align: start;
+        color: #FFFFFF;
+        margin: 1.8rem 3rem 0px 2rem;
+    }
+
+    .donate_bg__Donation_info {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 130%;
+        margin-left: 1.75rem;
+        margin-top: 2.7rem;
+        color: #FE9013;
+    }
+
+    .donate_bg__desktop_donate {
+        height: 60.25rem;
+        width: 58.5rem;
+        background: rgba(255, 255, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        margin: 2.6rem auto 0rem auto;
+    }
+
+    .donate_bg__desktop_donate__main_text {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 122%;
+        text-align: center;
+        padding-top: 1rem;
+        color: #FE9013;
+    }
+
+    .donate_bg__desktop_donate__second_text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        margin-top: 0.8rem;
+        margin-left: 2.75rem;
+        color: #333B41;
+    }
+
+    .donate_bg__desktop_donate__panda_diet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 3.688rem 6rem 0rem 13rem;
+    }
+
+    .donate_bg__desktop_donate__panda_diet__num {
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 80%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000000;
+    }
+
+    .donate_bg__desktop_donate__panda_diet__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #333B41;
+        width: 10rem;
+
+    }
+
+    .donate_bg__desktop_donate__panda_diet__cross {
+        width: 2.875rem;
+        height: 3.875rem;
+        margin-left: 4rem;
+        background: url(../../img/cross.svg)no-repeat;
+    }
+
+    .donate_bg__desktop_donate__panda_diet__widget_panda {
+        height: 15.375rem;
+        width: 46.75rem;
+        margin-left: 7rem;
+        background: url(../../img/panda_widget1.svg)no-repeat;
+    }
+
+    .donate_bg__desktop_donate__amount {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 3rem;
+        margin-left: 4rem;
+        color: #000000;
+    }
+
+    .donate_bg__desktop_donate__progressbar {
+        display: flex;
+    }
+
+    .radio__progressbar {
+        margin-bottom: 0.2em;
+        margin-left: 7.31rem;
+    }
+
+    .donate_bg__desktop_donate__progressbar:first-child {
+        margin-left: -7.31rem;
+    }
+
+    /* для элемента input c type="radio" */
+    .custom-radio_progressbar>input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    /* для элемента label связанного с .custom-radio */
+    .custom-radio_progressbar>span {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    /* создание в label псевдоэлемента  before со следующими стилями */
+    .custom-radio_progressbar>span::before {
+        content: '';
+        display: inline-block;
+        width: 0.625em;
+        height: 0.625em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #adb5bd;
+        border-radius: 50%;
+        /* margin-right: 0.5em; */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+        background-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили при наведении курсора на радио */
+    .custom-radio_progressbar>input:not(:disabled):not(:checked)+span:hover::before {
+        border-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили для активной радиокнопки (при нажатии на неё) */
+    .custom-radio_progressbar>input:not(:disabled):active+span::before {
+        background-color: rgba(255, 238, 46, 1);
+        border-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе */
+    .custom-radio_progressbar>input:focus+span::before {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+    .custom-radio_progressbar>input:focus:not(:checked)+span::before {
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии checked */
+    .custom-radio_progressbar>input:checked+span::before {
+        border-color: #1aaf1d;
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии disabled */
+    .custom-radio_progressbar>input:disabled+span::before {
+        background-color: rgba(255, 238, 46, 1);
+    }
+
+    .d:hover {
+        background-color: #adb5bd;
+        color: #FFFFFF;
+    }
+
+    .donate_bg__desktop_donate__progressbar__line_1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.9rem;
+        width: 51rem;
+        background: #404950;
+        border-radius: 2px;
+        margin: 0rem auto;
+        overflow: hidden;
+    }
+
+    .donate_bg__desktop_donate__progressbar__line_2 {
+        width: 48.188rem;
+        height: 0.125rem;
+        background: #72828E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .donate_bg__desktop_donate__progressbar__money {
+        display: flex;
+        margin-top: 0.75rem;
+    }
+
+
+    .donate_bg__desktop_donate__progressbar__money__count {
+        margin-left: 4.51rem;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #333B41;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+    .donate_bg__desktop_donate__input_div {
+        position: relative;
+        margin-top: 3.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input_donate {
+        height: 3.375rem;
+        width: 16.75rem;
+        padding-left: 0.5rem;
+        background-color: rgb(253 228 215);
+        backdrop-filter: blur(2px);
+        border: 1px solid rgba(146, 150, 153, 1);
+        border-radius: 2px;
+    }
+
+    .div_near_input {
+        position: absolute;
+        top: 1.05rem;
+        left: 36rem;
+        font-size: 1.3rem;
+        color: #929699;
+    }
+
+    /* RADIO!!! */
+    .donate_bg__desktop_donate__radio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1.688rem 30rem 0rem 30rem;
+    }
+
+    /* для элемента input c type="radio" */
+    .custom-radio>input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    /* для элемента label связанного с .custom-radio */
+    .custom-radio>span {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    /* создание в label псевдоэлемента  before со следующими стилями */
+    .custom-radio>span::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #adb5bd;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+    /* стили при наведении курсора на радио */
+    .custom-radio>input:not(:disabled):not(:checked)+span:hover::before {
+        border-color: #b3d7ff;
+    }
+
+    /* стили для активной радиокнопки (при нажатии на неё) */
+    .custom-radio>input:not(:disabled):active+span::before {
+        background-color: #b3d7ff;
+        border-color: #b3d7ff;
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе */
+    .custom-radio>input:focus+span::before {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+    .custom-radio>input:focus:not(:checked)+span::before {
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии checked */
+    .custom-radio>input:checked+span::before {
+        border-color: #1aaf1d;
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии disabled */
+    .custom-radio>input:disabled+span::before {
+        background-color: #e9ecef;
+    }
+
+
+    .radio {
+        margin-bottom: 0.2em;
+    }
+
+    .d:hover {
+        background-color: #adb5bd;
+        color: #FFFFFF;
+    }
+
+    /* End radio */
+
+    .donate_bg__desktop_donate__btn {
+        display: block;
+        width: 18.625rem;
+        height: 3.375rem;
+        cursor: pointer;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border: none;
+        text-transform: uppercase;
+        border-radius: 25px;
+        color: #FFFFFF;
+        margin: 2.875rem auto 0rem auto;
+    }
+
+    .donate_bg__desktop_donate__btn:hover {
+        transition: 2s;
+        background: linear-gradient(113.96deg, #573324 1.49%, #FE9013 101.44%);
+    }
+
+    .donate_bg__desktop_donate__text_2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        margin-top: 1.875rem;
+        color: #333B41;
+    }
+
+
+
+    /* Footer */
+
+    .footer__bg {
+        height: 443px;
+        background-color: #000000;
+    }
+
+    .footer__bg__social_nav_design {
+        display: flex;
+        justify-content: space-between;
+        margin: 44px 2.75% 0px -1.25%;
+
+    }
+
+    .footer__bg__logo_and_submit {
+        display: flex;
+        justify-content: space-between;
+        padding: 39px 5.75% 0px 1.9rem;
+    }
+
+    .footer__bg__logo_and_submit__logo {
+        height: 52px;
+        width: 82px;
+        display: inline;
+    }
+
+    .footer__bg__logo_and_submit__submit__header {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .footer__bg__logo_and_submit__submit__input_button {
+        display: flex;
+        margin-top: 14px;
+    }
+
+    .footer__bg__logo_and_submit__submit__input_button__input {
+        border-radius: 2px;
+        width: 211px;
+        height: 42px;
+        border: 0.7px solid orange;
+        background-color: black;
+        color: #BDBDBD;
+        padding-left: 10px;
+    }
+
+    .footer__bg__logo_and_submit__submit__input_button__button {
+        margin-left: 10px;
+        width: 129px;
+        height: 42px;
+        background: #F1F3F2;
+        border: 1px solid #4B9200;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #4B9200;
+    }
+
+    .footer__bg__logo_and_submit__submit__input_button__button:hover {
+        transition: 2s;
+        background: linear-gradient(113.96deg, #a8ce98 1.49%, #FE9013 101.44%);
+    }
+
+    .footer__bg__button {
+        width: 298px;
+        height: 54px;
+        padding-top: 5px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 5px;
+        margin-top: 29px;
+        margin-left: 3%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .footer__bg__button:hover {
+        transition: 2s;
+        background: linear-gradient(113.96deg, #573324 1.49%, #FE9013 101.44%);
+    }
+
+    .footer__bg__social_nav_design__nav {
+        align-self: flex-end;
+    }
+
+    .footer__bg__social_nav_design__nav ul {
+        display: flex;
+
+    }
+
+    .footer__bg__social_nav_design__nav__li {
+        list-style-type: none;
+        cursor: pointer;
+        text-decoration: none;
+        margin-left: 58px;
+
+
+    }
+
+    .footer__bg__social_nav_design__nav__li a {
+        list-style-type: none;
+        cursor: pointer;
+        text-decoration: none;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .footer__bg__social_nav_design__nav__li a:hover {
+        transition: 2s;
+        color: #FE9013;
+    }
+
+
+    .footer__bg__social_nav_design__design {
+        height: 50px;
+        width: 233px;
+        color: white;
+        align-self: flex-end;
+        line-height: 28px;
+        padding-bottom: 21px;
+    }
+}
