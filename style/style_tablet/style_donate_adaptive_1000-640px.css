@@ -2,30 +2,49 @@
 
     /* Header */
     .header {
+        width: 61rem;
+        height: 80px;
+        background-color: black;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding-left: 2.8%;
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+
     }
 
     .header_nav {
-        width: 38rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 44rem;
+        padding: 0px;
     }
 
     .header_nav ul {
         display: flex;
-        justify-content: space-between;
-        width: 34rem;
-        padding-left: 0px;
-        margin-right: 186px;
+    }
+
+    .header_logo {
+        display: inline;
+        height: 52px;
+        width: 82px;
     }
 
     .header_nav_elem {
         list-style-type: none;
-        margin-left: 0px;
+        margin-left: 44px;
     }
 
     .header_nav_elem a {
         text-decoration: none;
-
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -41,7 +60,7 @@
     }
 
     .header_designed {
-        margin-right: 3.2%;
+        margin-right: 3.75%;
     }
 
     .header_designed a {
@@ -56,630 +75,389 @@
 
 
 
-    /* Body  section 1*/
-    .big_panda_section {
-        height: 504px;
-        background: url(../../img_tablet/Giant\ Panda_x_1000.jpg)no-repeat;
-        position: relative;
+    /* Main */
+    .panda_bg {
+        width: 62.7rem;
+        height: 24.4rem;
+        background: url(../../img_tablet/img_tablet_donate/panda_bg_1000.jpg)no-repeat;
     }
 
-    .big_orange_circle {
-        width: 37%;
-        height: 72%;
-        border-radius: 50%;
-        position: absolute;
-        left: 454px;
-        top: -9px;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    }
-
-    .main_text {
-        position: absolute;
-        height: 500px;
-        width: 400px;
-        font-weight: 700;
-        font-size: 86.496px;
-        line-height: 75%;
-        text-transform: uppercase;
-        text-align: center;
-        top: -6%;
-        right: 8.5%;
-        color: #FFFFFF;
-    }
-
-    .main_text span {
-        color: #FFEE2E;
-    }
-
-    .btn {
-        width: 30%;
-        height: 11%;
-        position: relative;
-        top: 80%;
-        left: 56.5%;
-        cursor: pointer;
-        border: none;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-        border-radius: 25px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 140%;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-
-    .btn:hover {
-        transition: 2s;
-        background: linear-gradient(113.96deg, #933e1a 1.49%, #FE9013 101.44%);
-    }
-
-    /* Body  section 2*/
-    .section_text {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 11%;
-    }
-
-    .section_text__img1 {
-        margin-left: 2.9%;
-        height: 417px;
-        width: 49%;
-        background: url(../../img_tablet/bamboo-cap_1000.jpg)no-repeat;
-
-    }
-
-    .section_text__text {
-        width: 51%;
-        margin-left: 3.4%;
-        margin-right: 1.25%;
-        margin-top: -9px;
-        text-align: left;
-        font-weight: 400;
-        color: #333B41;
-    }
-
-    .section_text__text__header_1 {
-        font-size: 48px;
-        line-height: 120%;
-        margin-bottom: 20px;
-    }
-
-    .section_text__text__body_1 {
-        font-size: 16px;
-        line-height: 130%;
-        margin-bottom: 54px;
-    }
-
-    .section_text__text__header_2 {
-        font-size: 24px;
-        line-height: 120%;
-        margin-bottom: 31px;
-    }
-
-    .section_text__text__body_2 {
-        font-size: 16px;
-        line-height: 143%;
-    }
-
-    .section_text__img2 {
-        display: none;
-    }
-
-    /* Body Section 3 */
-
-    .section__slider {
-        margin-top: 80px;
-    }
-
-    .section__slider__arrow {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 8.6%;
-    }
-
-    .left {
-        position: absolute;
-        top: 27em;
-        right: -32.5%;
-    }
-
-    .right {
-        position: absolute;
-        top: 27em;
-        right: 16.5em;
-    }
-
-    .circle {
-        width: 62px;
-        height: 62px;
-        border-radius: 50%;
-        cursor: pointer;
-        position: relative;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    }
-
-    .circle:hover {
-        transition-duration: 200ms;
-        background: linear-gradient(113.96deg, #f35715 1.49%, #FE9013 101.44%);
-    }
-
-    .arrow__left {
-        top: 25px;
-        left: 21px;
-        position: absolute;
-        width: 18px;
-        height: 10px;
-        background: url(../../img/left_arr.svg);
-    }
-
-    .arrow__right {
-        top: 25px;
-        left: 21px;
-        position: absolute;
-        width: 18px;
-        height: 10px;
-        background: url(../../img/right_arr.svg);
-    }
-
-    .section__slider__cards {
-        margin: 0px auto;
-        width: 94%;
-        height: 801px;
-        display: grid;
-        grid-template-columns: repeat(3, 32%);
-        gap: 22px;
-        row-gap: 91px;
-    }
-
-    .section__slider__card {
-        border: solid 1px #FE9013;
-        /* background-image: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%); */
-        border-image-slice: 1;
-        border-radius: 6px;
-        height: 353px;
-        transition: all .5s;
-    }
-
-    .section__slider__card__img {
-        height: 294px;
-
-    }
-
-    .section__slider__card__img span {
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        border-radius: 5px;
-        transition: all .5s;
-        background: rgba(0, 0, 0, 0.6);
-    }
-
-    .section__slider__card:hover span {
-        opacity: 1;
-    }
-
-    .section__slider__card:hover .section__slider__card__info_and_icon {
-        margin-top: -15rem;
-        color: white;
-    }
-
-
-    .section__slider__card:hover {
-        height: 294px;
-    }
-
-    .image_1 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_1_1000.jpg)no-repeat;
-    }
-
-    .image_2 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_2_1000.jpg)no-repeat;
-    }
-
-    .image_3 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_3_1000.jpg)no-repeat;
-    }
-
-    .image_4 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_4_1000.jpg)no-repeat;
-    }
-
-    .img_5 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_5_1000.jpg)no-repeat;
-    }
-
-    .img_6 {
-        border-radius: 5px;
-        background: url(../../img_tablet/img_6_1000.jpg)no-repeat;
-    }
-
-    .section__slider__card__info_and_icon {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 8px;
-        transition: all .5s;
-    }
-
-    .section__slider__card__info_and_icon__info {
-        margin-left: 10px;
-    }
-
-    .section__slider__card__info_and_icon__info__main_text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 140%;
-        text-transform: uppercase;
-    }
-
-
-
-    .section__slider__card__info_and_icon__info__secondary_text {
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 120%;
-    }
-
-    .section__slider__card__info_and_icon__icon {
-        width: 33px;
-        height: 33px;
-        margin-right: 17px;
-    }
-
-    .icon_1 {
-        background: url(../../img/banana-bamboo_icon.svg);
-    }
-
-    .icon_2 {
-        background: url(../../img/meet-fish_icon.svg);
-    }
-
-    .icon_3 {
-        background: url(../../img/banana-bamboo_icon.svg);
-    }
-
-    .icon_4 {
-        background: url(../../img/banana-bamboo_icon.svg);
-    }
-
-    .icon_5 {
-        background: url(../../img/meet-fish_icon.svg);
-    }
-
-    .icon_6 {
-        background: url(../../img/meet-fish_icon.svg);
-    }
-
-    .section__button_and_flowers {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        height: 285px;
-    }
-
-    .section__button_and_flowers__left_flower {
-        width: 248px;
-        height: 214px;
-        background: url(../../img_tablet/left_flower_1000.jpg)no-repeat;
-    }
-
-    .section__button_and_flowers__button {
-        width: 30%;
-        height: 54px;
-        margin-bottom: 151px;
-        border: none;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-        border-radius: 25px;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 140%;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
-
-    .section__button_and_flowers__button:hover {
-        transition: 2s;
-        background: linear-gradient(113.96deg, #b56a44 1.49%, #FE9013 101.44%);
-    }
-
-    .section__button_and_flowers__right_flower {
-        width: 241px;
-        height: 193px;
-        background: url(../../img_tablet/right_flower_1000.jpg)no-repeat;
-    }
-
-    /* Section 3 */
-
-    .pick_and_feed__bg {
-        padding-top: 17px;
-        width: 1002px;
-        height: 848px;
+    .donate_bg {
+        width: 62.5rem;
+        height: 84rem;
         background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+        ;
     }
 
-    .pick_and_feed__bg__main {
-        /* margin: 0px auto 100px auto; */
-        width: 93.5%;
-        height: 798px;
-        background: rgba(253, 253, 255, 0.52);
+    .donate_bg__main_text {
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 130%;
+        padding-top: 2.5rem;
+        color: #FFFFFF;
+        margin-right: 11rem;
+        text-align: start;
+        margin-left: 2rem;
+    }
+
+    .donate_bg__text_second {
+        width: 58.5rem;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 140%;
+        text-align: start;
+        color: #FFFFFF;
+        margin: 1.8rem 3rem 0px 2rem;
+    }
+
+    .donate_bg__Donation_info {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 130%;
+        margin-left: 1.75rem;
+        margin-top: 2.7rem;
+        color: #FE9013;
+    }
+
+    .donate_bg__desktop_donate {
+        height: 60.25rem;
+        width: 58.5rem;
+        background: rgba(255, 255, 255, 0.52);
         backdrop-filter: blur(2px);
         border-radius: 20px;
-        text-align: center;
+        margin: 2.6rem auto 0rem auto;
     }
 
-    .pick_and_feed__bg__main__header_text {
+    .donate_bg__desktop_donate__main_text {
         font-weight: 400;
-        font-size: 48px;
-        line-height: 120%;
+        font-size: 50px;
+        line-height: 122%;
+        text-align: center;
+        padding-top: 1rem;
         color: #FE9013;
-        padding-top: 32px;
     }
 
-    .pick_and_feed__bg__main__second_text {
+    .donate_bg__desktop_donate__second_text {
         font-weight: 400;
         font-size: 24px;
         line-height: 120%;
+        margin-top: 0.8rem;
+        margin-left: 2.75rem;
         color: #333B41;
-        padding-top: 22px;
-        text-align: left;
-        padding-left: 5%;
     }
 
-    .pick_and_feed__bg__main__third_text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 130%;
-        color: #333B41;
-        text-align: left;
-        padding-left: 5%;
-        padding-top: 19px;
-
-    }
-
-    .pick_and_feed__bg__main__fore_text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 130%;
-        color: #333B41;
-        text-align: left;
-        padding-left: 5%;
-        padding-top: 10px;
-        padding-right: 16%;
-    }
-
-    .emergency_support_fund {
-        text-decoration: none;
-        color: #333B41;
-        border-bottom: 1px solid #FE9013;
-    }
-
-    .pick_and_feed__bg__main__how_it_work {
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 130%;
-        color: #333B41;
-        padding-top: 41px;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__panel {
-        padding: 0px 9% 0px 10%;
-        margin-top: 40px;
+    .donate_bg__desktop_donate__panda_diet {
         display: flex;
-
         justify-content: space-between;
+        align-items: center;
+        margin: 3.688rem 6rem 0rem 13rem;
     }
 
-    .pick_and_feed__bg__main__how_it_work__panel__card {
-        width: 22%;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__panel__arr {
-        width: 70px;
-        height: 37px;
-        margin-top: 49px;
-        background: url(../../img/Vector.svg) no-repeat;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__panel__img {
-        width: 168px;
-        height: 168px;
-        border-radius: 5px;
-        background-color: white;
-    }
-
-    .card_1 {
-        padding-top: 80px;
-        height: 60px;
-        background: url(../../img/pay.svg)no-repeat center center;
-    }
-
-    .card_2 {
-        padding-top: 80px;
-        height: 96px;
-        background: url(../../img/zoo.svg)no-repeat center center;
-    }
-
-    .card_3 {
-        padding-top: 80px;
-        height: 96px;
-        background: url(../../img/monkey.svg)no-repeat center center;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__panel__card__text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        color: #333B41;
-        text-align: start;
-        margin-top: 30px;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__btn {
-        width: 32%;
-        height: 54px;
-        margin-top: 70px;
-        cursor: pointer;
-        border: none;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-        border-radius: 25px;
-
+    .donate_bg__desktop_donate__panda_diet__num {
         font-weight: 500;
-        font-size: 16px;
-        line-height: 140%;
+        font-size: 72px;
+        line-height: 80%;
         text-transform: uppercase;
-
-        color: #FFFFFF;
-    }
-
-    .pick_and_feed__bg__main__how_it_work__btn:hover {
-        transition: 2s;
-        background: linear-gradient(113.96deg, #573324 1.49%, #FE9013 101.44%);
-
-    }
-
-    /* Section testimonial */
-    .testimonials {
-        position: relative;
-    }
-
-    .testimonials__header {
-        margin-top: 99px;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 130%;
         text-align: center;
-        color: #333B41;
-    }
-
-    .testimonials__cards {
-        margin: 2rem 2rem;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .testimonials__cards__card {
-        width: 31%;
-        height: 391px;
-        border: 2px solid transparent;
-        border-radius: 15px;
-        background:
-            linear-gradient(to right, #F1F3F2, #F1F3F2),
-            linear-gradient(to right, rgba(254, 189, 171, 0.74), rgba(243, 169, 248, 0.66));
-        background-clip: padding-box, border-box;
-        background-origin: padding-box, border-box;
-        padding-left: 16px;
-        margin-right: 10px;
-
-        /* flex-basis: 33%; */
-    }
-
-    .testimonials__cards__card__header {
-        display: flex;
-        margin-top: 15px;
-    }
-
-    .card_name {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 120%;
         color: #000000;
     }
 
-    .testimonials__cards__card__header__text {
-        margin-left: 10px;
+    .donate_bg__desktop_donate__panda_diet__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #333B41;
+        width: 10rem;
+
     }
 
-    .card_local {
-        display: inline;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 120%;
-        color: #BDBDBD;
+    .donate_bg__desktop_donate__panda_diet__cross {
+        width: 2.875rem;
+        height: 3.875rem;
+        margin-left: 4rem;
+        background: url(../../img/cross.svg)no-repeat;
     }
 
-    .card__time {
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 120%;
-        color: #BDBDBD;
-        display: inline;
+    .donate_bg__desktop_donate__panda_diet__widget_panda {
+        height: 15.375rem;
+        width: 46.75rem;
+        margin-left: 7rem;
+        background: url(../../img/panda_widget1.svg)no-repeat;
     }
 
-    .card_text {
-        height: 321px;
-        margin-top: 10px;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 120%;
-        color: #767474;
+    .donate_bg__desktop_donate__amount {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 3rem;
+        margin-left: 4rem;
+        color: #000000;
+    }
+
+    .donate_bg__desktop_donate__progressbar {
+        display: flex;
+    }
+
+    .radio__progressbar {
+        margin-bottom: 0.2em;
+        margin-left: 7.31rem;
+    }
+
+    .donate_bg__desktop_donate__progressbar:first-child {
+        margin-left: -7.31rem;
+    }
+
+    /* для элемента input c type="radio" */
+    .custom-radio_progressbar>input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    /* для элемента label связанного с .custom-radio */
+    .custom-radio_progressbar>span {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    /* создание в label псевдоэлемента  before со следующими стилями */
+    .custom-radio_progressbar>span::before {
+        content: '';
+        display: inline-block;
+        width: 0.625em;
+        height: 0.625em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #adb5bd;
+        border-radius: 50%;
+        /* margin-right: 0.5em; */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+        background-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили при наведении курсора на радио */
+    .custom-radio_progressbar>input:not(:disabled):not(:checked)+span:hover::before {
+        border-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили для активной радиокнопки (при нажатии на неё) */
+    .custom-radio_progressbar>input:not(:disabled):active+span::before {
+        background-color: rgba(255, 238, 46, 1);
+        border-color: rgba(255, 238, 46, 1);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе */
+    .custom-radio_progressbar>input:focus+span::before {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+    .custom-radio_progressbar>input:focus:not(:checked)+span::before {
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии checked */
+    .custom-radio_progressbar>input:checked+span::before {
+        border-color: #1aaf1d;
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии disabled */
+    .custom-radio_progressbar>input:disabled+span::before {
+        background-color: rgba(255, 238, 46, 1);
+    }
+
+    .d:hover {
+        background-color: #adb5bd;
+        color: #FFFFFF;
+    }
+
+    .donate_bg__desktop_donate__progressbar__line_1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.9rem;
+        width: 51rem;
+        background: #404950;
+        border-radius: 2px;
+        margin: 0rem auto;
         overflow: hidden;
     }
 
-    .img_1 {
-        height: 37px;
-        width: 37px;
-        background: url(../../img/first_photo.svg);
+    .donate_bg__desktop_donate__progressbar__line_2 {
+        width: 48.188rem;
+        height: 0.125rem;
+        background: #72828E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    .img_2 {
-        height: 37px;
-        width: 37px;
-        background: url(../../img/img_2.svg);
+    .donate_bg__desktop_donate__progressbar__money {
+        display: flex;
+        margin-top: 0.75rem;
     }
 
-    .img_3 {
-        height: 37px;
-        width: 37px;
-        background: url(../../img/img_3.svg);
-    }
 
-    .img_4 {
-        height: 37px;
-        width: 37px;
-        background: url(../../img/img_4.svg);
-    }
-
-    .testimonials__button {
-        width: 30%;
-        height: 54px;
-        cursor: pointer;
-        border: none;
-        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    .donate_bg__desktop_donate__progressbar__money__count {
+        margin-left: 4.51rem;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 26px;
         line-height: 140%;
         text-transform: uppercase;
-        color: #FFFFFF;
-        border-radius: 5px;
-        margin: 76px 0px 8.8rem 2.9%;
+        color: #333B41;
+    }
+
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+    .donate_bg__desktop_donate__input_div {
+        position: relative;
+        margin-top: 3.125rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .testimonials__button:hover {
+    .input_donate {
+        height: 3.375rem;
+        width: 16.75rem;
+        padding-left: 0.5rem;
+        background-color: rgb(253 228 215);
+        backdrop-filter: blur(2px);
+        border: 1px solid rgba(146, 150, 153, 1);
+        border-radius: 2px;
+    }
+
+    .div_near_input {
+        position: absolute;
+        top: 1.05rem;
+        left: 36rem;
+        font-size: 1.3rem;
+        color: #929699;
+    }
+
+    /* RADIO!!! */
+    .donate_bg__desktop_donate__radio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1.688rem 30rem 0rem 30rem;
+    }
+
+    /* для элемента input c type="radio" */
+    .custom-radio>input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    /* для элемента label связанного с .custom-radio */
+    .custom-radio>span {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+    }
+
+    /* создание в label псевдоэлемента  before со следующими стилями */
+    .custom-radio>span::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #adb5bd;
+        border-radius: 50%;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+    /* стили при наведении курсора на радио */
+    .custom-radio>input:not(:disabled):not(:checked)+span:hover::before {
+        border-color: #b3d7ff;
+    }
+
+    /* стили для активной радиокнопки (при нажатии на неё) */
+    .custom-radio>input:not(:disabled):active+span::before {
+        background-color: #b3d7ff;
+        border-color: #b3d7ff;
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе */
+    .custom-radio>input:focus+span::before {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    /* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+    .custom-radio>input:focus:not(:checked)+span::before {
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии checked */
+    .custom-radio>input:checked+span::before {
+        border-color: #1aaf1d;
+        background-color: #1aaf1d;
+    }
+
+    /* стили для радиокнопки, находящейся в состоянии disabled */
+    .custom-radio>input:disabled+span::before {
+        background-color: #e9ecef;
+    }
+
+
+    .radio {
+        margin-bottom: 0.2em;
+    }
+
+    .d:hover {
+        background-color: #adb5bd;
+        color: #FFFFFF;
+    }
+
+    /* End radio */
+
+    .donate_bg__desktop_donate__btn {
+        display: block;
+        width: 18.625rem;
+        height: 3.375rem;
+        cursor: pointer;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border: none;
+        text-transform: uppercase;
+        border-radius: 25px;
+        color: #FFFFFF;
+        margin: 2.875rem auto 0rem auto;
+    }
+
+    .donate_bg__desktop_donate__btn:hover {
         transition: 2s;
         background: linear-gradient(113.96deg, #573324 1.49%, #FE9013 101.44%);
     }
 
-    .testimonials__flower_fore {
-        width: 197px;
-        height: 234.45px;
-        position: absolute;
-        right: -2px;
-        top: 84%;
-        background: url(../../img_tablet/flower_3_1000.jpg)no-repeat;
+    .donate_bg__desktop_donate__text_2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        margin-top: 1.875rem;
+        color: #333B41;
     }
+
+
 
     /* Footer */
 

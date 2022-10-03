@@ -5,23 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style_donate.css">
+    <link rel="stylesheet" href="../style/style_tablet/style_donate_adaptive_1000-640px.css" type="text/css">
+    <link rel="stylesheet" href="../style/style_tablet/style_donate_adaptive_640-320px.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style/style_donate.css">
-    <link rel="stylesheet" href="../style/style_tablet/style_donate_adaptive_1000-600px.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
         <div class="header_logo"><a href="../index.html"><img src="../img/1.svg" alt=""></a></div>
+        <div class="burger-menu_adaptive">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+
+            <ul class="menubox_adaptive">
+                <li><a id='' class="menu-item_adaptive" href="#">About</a></li>
+                <li><a id='' class="menu-item_adaptive" href="#">Map</a></li>
+                <li><a id='' class="menu-item_adaptive" href="#">Zoos</a></li>
+                <li><a id='' class="menu-item_adaptive" href="./pages/index_donate.html">Donate</a></li>
+                <li><a id='account' class="menu-item_adaptive " href="#">Contact Us</a></li>
+                <li><a id='' class="menu-item_adaptive"
+                        href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks?node-id=0%3A1">Designed
+                        by</a></li>
+            </ul>
+        </div>
         <nav class="header_nav">
             <ul>
                 <li class="header_nav_elem"><a href="#">About</a></li>
-                <li class="header_nav_elem"><a href="#">Map</a></li>
+                <li class="header_nav_elem" id="map"><a href="#">Map</a></li>
                 <li class="header_nav_elem"><a href="#">Zoos</a></li>
-                <li class="header_nav_elem"><a href="#">Donate</a></li>
+                <li class="header_nav_elem"><a href="./pages/index_donate.html">Donate</a></li>
                 <li class="header_nav_elem"><a href="#">Contact&nbspus</a></li>
             </ul>
         </nav>

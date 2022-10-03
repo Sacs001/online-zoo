@@ -30,7 +30,6 @@
 
     .header_nav ul {
         display: flex;
-
     }
 
     .header_logo {
@@ -46,7 +45,6 @@
 
     .header_nav_elem a {
         text-decoration: none;
-
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -62,7 +60,6 @@
     }
 
     .header_designed {
-
         margin-right: 3.75%;
     }
 
@@ -586,6 +583,13 @@
         margin: 2rem 2rem;
         display: flex;
         justify-content: space-between;
+        width: 81rem;
+    }
+
+    .wrapper_testimonial {
+        width: 62.5rem;
+        height: 26.7rem;
+        overflow: hidden;
     }
 
     .testimonials__cards__card {

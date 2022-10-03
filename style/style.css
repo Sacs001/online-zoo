@@ -14,7 +14,7 @@ p {
 
 /* Header */
 .header {
-    width: 100rem;
+    width: 86.2rem;
     height: 80px;
     background-color: black;
     display: flex;
@@ -30,6 +30,14 @@ p {
     text-align: left;
     color: #FFFFFF;
 
+}
+
+.menubox_adaptive {
+    display: none;
+}
+
+.burger-menu_adaptive {
+    display: none;
 }
 
 .header_nav {
@@ -604,6 +612,8 @@ p {
     text-align: center;
     color: #333B41;
 }
+
+.wrapper_testimonial {}
 
 .testimonials__cards {
     margin: 0px 13.7%;

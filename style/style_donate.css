@@ -14,7 +14,7 @@
 
 /* Header */
 .header {
-    width: 100rem;
+    width: 1381px;
     height: 80px;
     background-color: black;
     display: flex;
@@ -30,6 +30,14 @@
     text-align: left;
     color: #FFFFFF;
 
+}
+
+.menubox_adaptive {
+    display: none;
+}
+
+.burger-menu_adaptive {
+    display: none;
 }
 
 .header_nav {
