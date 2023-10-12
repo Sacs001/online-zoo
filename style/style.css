@@ -600,6 +600,10 @@ p {
 }
 
 /* Section testimonial */
+.testimonial_section {
+    position: relative;
+}
+
 .testimonials {
     position: relative;
 }
